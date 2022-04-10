@@ -1,0 +1,19 @@
+== Aliases
+
+----
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+----
+
+== Subtree
+
+----
+git remote add my-subtree git@github.com:abdennebi/my-subproject.git
+git subtree add —-prefix=vendor/ my-subtree master
+----
+
+----
+git subtree push --prefix=resources resources master
+----
