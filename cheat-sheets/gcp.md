@@ -164,8 +164,11 @@ curl -s -H "Metadata-Flavor: Google"   http://metadata.google.internal/computeMe
  ````
  
  ## Cloud Asset Inventory
+
+ - [Search all Cloud resources](https://cloud.google.com/sdk/gcloud/reference/asset/search-all-resources) within the specified accessible scope, such as a project, folder or organization
  
   ````bash
+  gcloud asset search-all-resources
  ````
  
  ## Audit Logs
