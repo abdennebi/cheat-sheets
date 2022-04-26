@@ -9,6 +9,20 @@ gcloud reference : https://cloud.google.com/sdk/gcloud/reference/
 gcloud auth list --filter=status:ACTIVE --format="value(account)"
 ````
 
+
+- Set ``Quota`` project which can be used by Google client libraries for billing and quota.
+
+````bash
+gcloud auth application-default set-quota-project mab-admin
+
+# Credentials saved to file: [/Users/abdennebi/.config/gcloud/application_default_credentials.json]
+
+# These credentials will be used by any library that requests Application Default Credentials (ADC).
+
+# Quota project "mab-admin" was added to ADC which can be used by Google client libraries for billing and quota. Note that some services may still bill the project owning the resource.
+
+````
+
 ### Set the default project
 
 - List the projects : 
