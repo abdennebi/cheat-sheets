@@ -19,3 +19,12 @@ Date
 ````
 NOW=$(TZ=GMT date +"%Y-%m-%dT%H:%M:%SZ")
 ````
+
+````
+cat /proc/cpuinfo
+````
+
+hostname --ip-address
+
+hostname -f
+
