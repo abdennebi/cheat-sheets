@@ -23,3 +23,9 @@ brew bundle dump
 # Install packages
 brew bundle
 
+`````
+
+## Remove Tap
+
+`````
+brew untap abdennebi-forks/homebrew-regula
