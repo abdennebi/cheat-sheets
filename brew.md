@@ -29,3 +29,9 @@ brew bundle
 
 `````
 brew untap abdennebi-forks/homebrew-regula
+`````
+
+## Docker 
+`````
+brew install --cask docker
+`````
